@@ -6,4 +6,4 @@
 
 【対応内容】 レスポンシブ・2ページ
 
-【制作環境と使用言語】 Windows・HTML・CSS・Bootstrap・jquery
+【制作環境と使用言語】 Windows・HTML・CSS・jquery
