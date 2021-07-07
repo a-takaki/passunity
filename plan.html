@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="jp">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
+<meta name="keywords" content="キーワード">
+<meta name="description" content="説明文">
+<title>PassUnity</title>
+<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/css3-mediaqueries.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="favicon.ico">
+<!-- <link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/fontawesome.min.css"> -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+<script src="js/jquery.smoothscroll.js"></script>
+<script src="js/jquery.scrollshow.js"></script>
+<script src="js/jquery.slideshow.js"></script>
+<script>
+$(function($){
+	$('html').smoothscroll({easing : 'swing', speed : 1000, margintop : 50, headerfix : $('header'), outersmooth : true});
+	$('.totop').scrollshow({position : 500});
+});
+</script>
+</head>
+<body>
+
+<header>
+  <div class="headerInner">
+    <h1><a href="index.html"><img src="images/logo.png" alt="PassUnity"></a></h1>
+    <div class="spMenuWrap">
+      <div id="spMenu"><span id="navBtn"><span id="navBtnIcon"></span></span></div>
+    </div>
+    <nav class="gnav">
+      <ul>
+        <li><a href="index.html">製品について</a></li>
+        <li class="active"><a href="plan.html">価格</a></li>
+        <li><a href="#">お問い合わせ</a></li>
+        <li class="btn"><a href="#">無料で試す</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- /headerInner -->
+</header>
+<!-- /header -->
+
+<div class="main">
+  <div class="imgR">
+
+    <div class="plan">
+      <p class="p01"><span>Basicプラン</span>仕事で使うパスワードを<br>もっと自由に。<br>もっと安全に。</p>
+      <p class="p02">ユーザー1人あたり<span>¥300 / 月</span></p>
+      <p class="btn"><a href="#">6ヶ月間無料お試し</a></p>
+    </div>
+    <!-- /plan -->
+    <div class="img">
+      <img src="images/bg01.png" alt="">
+    </div>
+  </div>
+</div>
+<!-- /main -->
+
+<div id="contents">
+
+<div class="support">
+  <h3><span>対応機能</span></h3>
+  <div class="text">
+    <ul>
+      <li>シングルサインオン</li>
+      <li>WEBアプリの社内・部署内共有</li>
+      <li>社内登録WEBアプリ検索</li>
+      <li>二段階認証</li>
+      <li>アクセスログの保持</li>
+      <li>アクセスログのCSVダウンロード</li>
+      <li>安全なパスワードの生成</li>
+    </ul>
+    <ul>
+      <li>社内パスワードのセキュア度チェック</li>
+      <li>危険度が高いパスワードの検知</li>
+      <li>危険度が高いパスワードへのアラート</li>
+      <li>パスワードの暗号化保存</li>
+      <li>セキュアメモ</li>
+      <li>社内wiki</li>
+      <li>社内アプリ登録申請</li>
+    </ul>
+  </div>
+</div>
+<!-- /support -->
+
+<div class="trial">
+  <p>最初の6ヶ月間は無料で利用できます。</p>
+  <div class="btn center"><a href="#">無料でPassUnityを使ってみる</a></div>
+</div>
+<!-- /trial -->
+
+</div>
+<!-- /contents -->
+
+<footer>
+  <div class="copyright"><small>Copyright&#169; Megalink All Rights Reserved.</small></div>
+</footer>
+<!-- /footer -->
+
+<div class="totop"><a href="#"><img src="images/totop.png" alt="ページのトップへ戻る"></a></div>
+<!-- /totop -->
+
+</body>
+</html>
